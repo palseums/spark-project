@@ -26,6 +26,8 @@ flightSchemaStruct = StructType([
 # Second way of defining the schema
 
 flightSchemaDDL = """FL_DATE DATE, OP_CARRIER STRING, OP_CARRIER_FL_NUM INT """
+schema_ddl = 'Year INTEGER, Name STRING, Country STRING, Sex STRING, count INTEGER'
+
 
 
 # This is for loading CSV file
